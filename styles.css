@@ -1,6 +1,89 @@
-.top > ul li{
-    display: inline-block; 
+*{
+    position: relative;
+    width: auto;
 }
-.top > ul > li > p{
+.top > table{
+    background-color: black;
+    color: white;
+}
+.font{
+    font-size: larger;
+}
+.event > table{
+    float: right;
+    color: white;
+    background-color: #144EE8;
+}
+.top > h4{
+    text-align: top;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.body{
+    padding-bottom: 1px;
+    text-align: center;
+}
+.body > h3{
+    color: white;
+    background-color: #0b1b47;
+    padding-bottom: 40px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.best{
+    background: #092166;
+    color: #ffff;
     padding-top: 0;
+    padding-bottom: 15%;
+    width: auto;
+}
+.best > img{
+    float: right;
+}
+.best > h1{
+    font-family: Sonsie One;
+    text-align: center;
+    font-size: 300%;
+
+}
+.best > p{
+    text-align: center;
+    font-family: fantasy;
+    justify-content: space-between;
+    font-size: large;
+    padding-bottom: 8px;
+    width: auto;
+}
+.bar > nav{
+    background-color: #0b1b47;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.bar > nav > ul >li {
+    display: inline-block;
+    font-size: larger;
+    padding-right: 20px;
+}
+
+.bar > nav ul > li  > a{
+    color: white;
+    text-size-adjust: auto;
+    
+}
+.bar > nav > ul> li  > a:hover{
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.bottom{
+    background-color: #2C3B63;
+    color: #45DFFF;
+    font-family: "Sofadi One";
+    font-style: oblique;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
