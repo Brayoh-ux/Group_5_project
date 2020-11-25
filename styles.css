@@ -1,0 +1,6 @@
+.top > ul li{
+    display: inline-block; 
+}
+.top > ul > li > p{
+    padding-top: 0;
+}
