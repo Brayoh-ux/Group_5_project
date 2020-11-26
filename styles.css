@@ -102,3 +102,50 @@ nav ul li a:hover{
     padding-top: 15px;
     padding-bottom: 10px;
 }
+/*--jobs--*/
+section{
+    background-color: rgb(19, 19, 133);
+    color: white;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #0ae01c;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    .line-1{
+        width: 15px;
+        height: 15px;
+        background: #0ae01c;
+        display: inline-block;
+    }
+    .line-2{
+        width: 80px;
+        height: 1px;
+        background: #0ae01c;
+        display: inline-block;
+    }
+    .line-3{
+        width: 60px;
+        height: 1px;
+        background: #0ae01c;
+        display: inline-block;
+    }
+    .line {
+        line-height: 8px;
+        }
+       
+.title h1{
+    font-size: larger;
+    font-family: sans-serif;
+    text-underline-position: below solid black;
+    padding-left: 30px;
+}
+.title p{
+    padding: 20px 10px;
+    justify-content: space-around;
+    font-size: medium;
+    padding-left: 30px;
+}
