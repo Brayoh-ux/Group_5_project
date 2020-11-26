@@ -2,12 +2,24 @@
     position: relative;
     width: auto;
 }
+./*top*/
+.top{
+    background: black;
+    margin-right: auto;
+}
 .top > table{
     background-color: black;
     color: white;
 }
-.font{
-    font-size: larger;
+.font {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    padding-bottom: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font p{
+    font-size: medium;
 }
 .event > table{
     float: right;
@@ -19,6 +31,7 @@
     justify-content: space-between;
     font-size: 30px;
 }
+/*body*/
 .body{
     padding-bottom: 1px;
     text-align: center;
@@ -54,28 +67,30 @@
     padding-bottom: 8px;
     width: auto;
 }
-.bar > nav{
+/*midbar*/
+#midbar{
+    width: 100vw;
     background-color: #0b1b47;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
     position: relative;
-}
-.bar > nav > ul >li {
-    display: inline-block;
-    font-size: larger;
-    padding-right: 20px;
-}
-
-.bar > nav ul > li  > a{
+    align-items: stretch ;
     color: white;
-    text-size-adjust: auto;
-    
+    font-size: xx-large;
+    padding-right: 90px;
 }
-.bar > nav > ul> li  > a:hover{
-    background-color: lightblue;
-    padding-top: 10px;
-    padding-bottom: 15px;
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: skyblue;
+    color: black;
+    box-shadow: blacks;
 }
 .bottom{
     background-color: #2C3B63;
