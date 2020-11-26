@@ -64,6 +64,7 @@
     font-family: fantasy;
     justify-content: space-between;
     font-size: large;
+    padding-top: 10px;
     padding-bottom: 8px;
     width: auto;
 }
