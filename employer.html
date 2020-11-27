@@ -9,22 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
 </head>
 <body>
-    <!--first employer-->
-    <div class="bar">
-        <div class="home" id="home">
-            <header>
-                    <div class="nav">
-                        <ul>
-                            <li><a href="index.html">home</a></li>
-                            <li><a href="index.html#about">about</a></li>
-                            <li><a href="index.html#contacts">contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-        </div>
-    </div>  
+     
     <div class="container">
+        <!--nav bar--> 
+        <header>
+            <div class="wraper">
+                <nav>
+                    <a href="index.html">home</a>
+                    <a href="job.html">job</a>
+                    <a href="contact.html">contact</a>
+                </nav>
+            </div>
+        </header>
+        <!--first employer--> 
+        <section class="employer-section">
+       <div class="first">
         <div class="circle">
             <img id="123" src="./em.pic/umeka.jpeg" alt="">
             <h2>Dr.BRIAN MWANGI</h2>
@@ -41,6 +40,7 @@
         </p>
         <button id="read" onclick="read()">Read More</button>
         <hr>
+       </div>
 
         <!-- second employer-->
         <div class="circle">
@@ -82,18 +82,7 @@
             </ul>
         </P>
         <hr>
-         <!--fourth employer-->
-         <!-- <div class="circle">
-            <img id="123" src="./em.pic/umeka.jpeg" alt="">
-            <h2>BRIAN UMEKA</h2>
-            <p>founder of the org</p>
-         </div>
-         
-        <h1>the founder</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis nihil perspiciatis itaque qui consequuntur veritatis vero officiis quia accusantium dolor harum excepturi quis, eum nam, cum et ad? Veniam fugiat quis aut neque vero praesentium modi quaerat magni, provident aliquam? Minima adipisci ad suscipit placeat tenetur quidem alias ex quas atque quaerat similique numquam aliquam itaque inventore dolor sunt quibusdam harum a neque rerum, nisi voluptas? Voluptatem ea mollitia tempora veniam sit cupiditate eos? Inventore odit deserunt ipsa dolor voluptas magnam harum, quo nostrum a dolorem consectetur optio minima maiores excepturi, exercitationem necessitatibus omnis quaerat possimus id? Vero, harum quibusdam veniam velit est sequi odio culpa eveniet nulla nihil magni nam ex cum at laborum nemo dolorum aliquam. Sed pariatur dolorum nostrum possimus, repellat ut consectetur ab eos natus laboriosam reprehenderit eaque illo, saepe earum impedit ea repellendus aut. Et quaerat laudantium tenetur accusamus. Amet nostrum blanditiis expedita nihil? Repellat quasi rerum culpa odio aliquam perferendis recusandae iure? Tempora, accusantium iste ab consequatur minima pariatur maiores assumenda enim soluta repellendus? Enim expedita officia ex! Autem dolor quis vel perspiciatis. Dolorem, quis ex. Nesciunt, harum vel. Unde voluptatem molestias praesentium eius dolore magni ad provident facilis, nam numquam aperiam possimus. Officiis harum enim nobis similique dolorum odit ipsum autem consequuntur unde corporis sed odio distinctio minima aspernatur fugiat ducimus labore dolore, est id vel provident error quae rerum? Asperiores unde dicta assumenda reiciendis illum? Pariatur fugit enim incidunt voluptatibus facere dolorem officia et sint nulla molestiae, blanditiis consectetur totam quia!
-        </p>
-        <hr> -->
+    </section>
         <!-- CLIENTS -->
         <div class="owl-carousel owl-theme">
             <div class="item"><h4>1</h4></div>
@@ -120,7 +109,13 @@
             <img src="./pic/opta.png" alt="">
             <img src="./pic/program.png" alt="">
             <img src="./pic/sale.png" alt="">
-        </div>  
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="footer-copyright">
+                &copy; group5 mpp17 | Designed by group5 meamber
+            </div>  
+        </div>
     </div>
     <script>
         var i=0;
@@ -143,24 +138,4 @@
         }
     </script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script>
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-</script>
 </html>

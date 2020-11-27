@@ -6,32 +6,21 @@
     <link rel="stylesheet" href="./styles.css" >
     <title>Join at a click</title>
 </head>
-<body> 
-    <div class="bar">
-        <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="employer.html">EMPLOYER</a></li>
-                <li><a href="#testimonials">TESTIMONIALS</a></li>
-                <!-- <li><a href="#did you know">Did you know</a></li> -->
-                <li><a href="#job">JOB</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
-            </ul>
-        </nav>
-    </div>  
-    <div class="event">
-        <table>
-            <tr><td><h4>News & Events</h4></td></tr></table>
-    </div>
-    <div class="top">
-        <table><tr>
-            <td>
-                <img src="./mages/j logo.jpg" width="70px" height="30%">
-            </td>
-            <td class="font">J.A.C.C
-                <p>Join At a click</p>
-            </td></tr></table>
-    </div>
+<body>
+    <!--nav bar--> 
+    <header>
+        <div class="wraper">
+            <nav>
+                <a href="login.html">login</a>
+                <a href="contact.html">contact</a>
+                <a href="job.html">job</a>
+                <a href="employer.html">employers</a>
+                <a href="index.html">home</a>
+                <img src="./mages/j logo.jpg" height="80px" id="logo">
+            </nav>
+        </div>
+    </header>
+    <!--first employer-->    
     <div class="body">
         <h3>Seize Your Next Opportunity! Top campanies on JACC are looking for you.</h3>
 
@@ -43,10 +32,20 @@
             match you with the rigth opportunities, so that you can be the Best and the Brightest.
         </p>
     </div>
-    
     <div class="bottom">
         <p>Are you ready foy your next big career?</p>
         <p>Join us today to make that a reality..</p>
     </div>
+    <div class="footer">
+        <div class="footer-copyright">
+            &copy; group5 mpp17 | Designed by group5 meamber
+        </div>  
+    </div>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            speed:1000,
+            speedAsDuration: true
+        });
+    </script>
 </body>
 </html>
